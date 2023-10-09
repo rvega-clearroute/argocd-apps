@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: charts/
+    path: charts/pyhello
     repoURL: https://github.com/rvega-clearroute/argocd-apps.git
     targetRevision: main
   syncPolicy:
